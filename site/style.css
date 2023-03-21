@@ -137,3 +137,15 @@ nav ul li a{
         display:block;
     }
 }
+.texto{
+    font-size: larger;
+    text-align: center;
+}
+#btn{
+    width: 160px;
+    height: 35px;
+    background-color: #85AD25;
+    color: whitesmoke;
+    border-style: none;
+    border-radius: 5px;
+}
