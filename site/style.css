@@ -110,8 +110,12 @@ nav ul li a{
         transition: 0.5s;
         box-shadow: 2px 0 2px 0 rgb(179, 177, 177);
     }
+    nav ul li{
+        margin-top: 10px;
+    }
     nav ul li a.active{
         border-style: none;
+        color: white;
     }
     #nav_check:checked ~ nav {
         left: 0;
@@ -122,8 +126,11 @@ nav ul li a{
         padding: 10px 15px;
         text-decoration: none;
     }
-    nav ul li a.active{
-        color: white;
+    nav ul li a:hover{
+        border: 1px solid #85AD25;
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
     }
     nav ul li a:hover:after{
         width: 0;
@@ -143,9 +150,12 @@ nav ul li a{
 }
 #btn{
     width: 160px;
-    height: 35px;
+    height: 40px;
     background-color: #85AD25;
     color: whitesmoke;
     border-style: none;
-    border-radius: 5px;
+    border-radius: 50px;
+}
+#about{
+    color: gray;
 }
