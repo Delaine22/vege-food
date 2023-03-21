@@ -161,8 +161,8 @@ nav ul li a{
     width: 100%;
 }
 .about{
-    margin: auto;
     width: 900px;
+    margin: auto;
     margin-top: 100px;
     display: flex;
     flex-direction: row;
@@ -176,4 +176,9 @@ nav ul li a{
     height: 300px;
     text-align: center;
     margin-top: 100px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
