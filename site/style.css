@@ -25,7 +25,7 @@ header{
 }
 #vege-food{
     width: 100%;
-    background-image: url(https://cdn.pixabay.com/photo/2020/06/30/15/03/table-5356682_960_720.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/04/05/21/bar-1713610_960_720.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -51,7 +51,7 @@ nav ul{
     display: flex;
 }
 nav ul li a.active{
-    color: black;
+    color: white;
     font-size: larger;
     border: 1px solid #85AD25;
     border-radius: 5px;
@@ -59,7 +59,7 @@ nav ul li a.active{
 nav ul li a{
     font-style: bold;
     position: relative;
-    color: black;
+    color: white;
     text-align: none;
     font-size: larger;
     margin: 10px;
@@ -151,6 +151,7 @@ nav ul li a{
 .texto{
     font-size: larger;
     text-align: center;
+    color: white;
 }
 #btn{
     width: 160px;
@@ -160,7 +161,11 @@ nav ul li a{
     border-style: none;
     border-radius: 50px;
 }
-
+#btn:hover{
+    border: 2px solid #85AD25;
+    transition: 0.5s;
+    background: none;
+}
 /*Estilizando id "ABOUT" */
 #about{
     color: gray;
@@ -279,6 +284,7 @@ border-radius: 5px;
 }
 .description p{
    margin: 5px; 
+   font-size: small;
 }
 .description img{
     text-align: end;
@@ -377,7 +383,7 @@ border-radius: 5px;
     width: 290px;
     height: 270px;
     color: black;
-   border: 2px solid black;
+   border: 2px solid #85AD25;
 }
 .event-article img{
     width: 290px;
@@ -405,7 +411,7 @@ border-radius: 5px;
     width: 400px;
     height: 400px;
     background: none;
-    border: 2px solid #85AD25;
+    border: 10px solid #85AD25;
 }
 .season-offer-photo img{
     width: 290;
@@ -421,7 +427,7 @@ border-radius: 5px;
     text-align: center;
 }
 .our_blog{
-    width: 900px;
+    width: 1000px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -429,15 +435,59 @@ border-radius: 5px;
 }
 .blog_img img{
     width: 150px;
-    height: 300px ;
+    height: 230px ;
+}
+.blog_texto{
+    margin: 5px;
 }
 .blog{
-    margin: 10px;
-    text-align: center;
+    margin: 5px;
     margin-top: 10px;
-    width: 430px;
-    height: 300px;
+    width: 450px;
+    height: 230px;
     display: flex;
     flex-direction: row;
     border: 1px solid #85AD25;
+}
+/* estilizando a section CONTACT*/
+#Contact{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+#Contact a{
+    text-decoration: none;
+color: whitesmoke;
+}
+.links,.extras,.insta,.ig-photos{
+    margin-top: 60px;
+}
+.ig-photos img{
+    width: 180px;
+    height: 170px;
+}
+/*estilizando footer*/
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: black;
+}
+.footer a{
+    margin: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.foot,.date{
+margin-top: 10px;
 }
