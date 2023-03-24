@@ -383,3 +383,61 @@ border-radius: 5px;
     width: 290px;
     height: 200px;
 }
+/*estilizando section "season-offer"*/
+#season-offer{
+    margin-top: 100px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.season-offer-texto{
+    color: white;
+    margin-top: 150px;
+}
+.season-offer-photo{
+    margin-top: 80px;
+    width: 400px;
+    height: 400px;
+    background: none;
+    border: 2px solid #85AD25;
+}
+.season-offer-photo img{
+    width: 290;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+}
+/* estilizando id "BLOG"*/
+#blog{
+    margin-top: 100px;
+}
+#blog h2{
+    text-align: center;
+}
+.our_blog{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blog_img img{
+    width: 150px;
+    height: 300px ;
+}
+.blog{
+    margin: 10px;
+    text-align: center;
+    margin-top: 10px;
+    width: 430px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #85AD25;
+}
