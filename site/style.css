@@ -164,11 +164,6 @@ nav ul li a{
     border-style: none;
     border-radius: 50px;
 }
-#btn:hover{
-    border: 2px solid #85AD25;
-    transition: 0.5s;
-    background: none;
-}
 /*Estilizando id "ABOUT" */
 #about{
     color: gray;
@@ -179,6 +174,7 @@ nav ul li a{
     margin-top: 100px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .foto img{
@@ -208,6 +204,7 @@ h3{
     text-align: center;
     display: flex;
     flex-direction: row ;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 80px;
     color: #85AD25;
@@ -252,9 +249,9 @@ h3{
     margin-top:50px;
     width: 1000px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     background-color: white;
-    height: 500px;
     border: 1px solid black;
 }
 .article, .article img{
@@ -476,6 +473,9 @@ color: whitesmoke;
     width: 180px;
     height: 170px;
 }
+.main{
+    color: #85AD25;
+}
 /*estilizando footer*/
 .footer{
     display: flex;
@@ -500,7 +500,7 @@ margin-top: 10px;
     }
     #vege-food{
         width: 100%;
-        height: 60vh;
+        height: 65vh;
     }
     .texto{
         font-size: medium;
@@ -525,10 +525,194 @@ margin-top: 10px;
         text-align:left;
         margin-top: 100px;
     }
+    .article{
+        display: none;
+    }
+    .container{
+        border: none;
+    }
+    .card1, .card2, .card3{
+        margin-top: 40px;
+    }
+    .feedback{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .client-photo img{
+        width: 100%;
+    }
+    .season-offer-texto{
+        color: white;
+        margin-top: 150px;
+        margin-left: 5px;
+    }
+    .season-offer-photo{
+        margin-top: 80px;
+        width: 300px;
+        height: 300px;
+        background: none;
+        border: 10px solid #85AD25;
+    }
+    .season-offer-photo img{
+        width: 210;
+        height: 300px;
+        float: center;
+        margin-top: 0px;
+    }
+    .our_blog{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .blog_img img{
+        width: 150px;
+        height: 190px ;
+    }
+    .blog_texto{
+        margin-left: 10px;
+    }
+    .blog{
+        margin: 20px;
+        margin-top: 10px;
+        width: 550px;
+        height: 190px;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid #85AD25;
+    }
+    #Contact{
+        margin-top: 100px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.main{
+    color: #85AD25;
+}
+.footer{
+    font-size: small;
+}
 }
 @media screen and (max-width:450px){
     header{
         display: none;
     }
-
+    .main_paragraph{
+        font-size: 30px
+    }
+    .about_us{
+        margin-top: 0px;
+    }
+    .morning_meal img,.lunch img,.dinner img,.dessert img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    #menu{
+        background: none;
+        height: 155vh;
+    }
+    #season-offer{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .season-offer-texto{
+        font-size: small;
+        margin-top:50px;
+    }
+    .season-offer-photo{
+        margin-top: 20px;
+    }
+    .season-offer-photo img{
+        width: 290px;
+    }
+    .buttons{
+        margin-top: 5px;
+        background: black;
+        display: none;
+    }
+    .container{
+        margin-top: 10px;
+    }
+    .breackfast p{
+        font-size: smaller;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card1, .card2, .card3{
+        margin-top: 5px;
+        margin-left: 25px;
+    }
+    #chef{
+        margin-top: 30px;
+    }
+    .blog_img img{
+        width: 140px;
+        height: 200px ;
+    }
+    .blog_texto{
+        margin: 3px;
+    }
+    .blog{
+        margin: 5px;
+        margin-top: 10px;
+        width: 400px;
+        height: 200px;
+    }
+    .footer{
+        font-size: x-small;
+    }
+}
+@media screen and (max-width:320px){
+    /*#vege-food{
+        height: 70vh;
+    }*/
+    .main_paragraph{
+        font-size: 30px
+    }
+    .about_us{
+        height: 350px;
+        text-align: center;
+    }
+    .meal{
+        font-size: small;
+    }
+    .morning_meal img,.lunch img,.dinner img,.dessert img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    .buttons{
+        display: none;
+    }
+    #chef{
+    margin-top:0px;
+    }
+    #contact{
+        font-size: small;
+    }
+    .blog_img img{
+        width: 80px;
+        height: 150px ;
+    }
+    .blog_texto{
+        margin: 0px;
+        font-size: smaller;
+    }
+    .blog{
+        margin: 0px;
+       font-size: smaller;
+       height: 150px;
+       height: 140;
+       margin-top: 8px;
+    }
+    .footer{
+        font-size: xx-small;
+    }
 }
