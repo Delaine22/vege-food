@@ -627,6 +627,8 @@ margin-top: 10px;
         display: flex;
         flex-direction: column;
         height: 100vh;
+        background-image: none;
+        background-color: black;
     }
     .season-offer-texto{
         font-size: small;
@@ -658,18 +660,21 @@ margin-top: 10px;
     .card1, .card2, .card3{
         font-size: medium;
         background-color: white;
-        width: 200px;
-        height: 250px;
+        width: 190px;
+        height: 240px;
         border: 1px solid gray;
         margin-top: 10px;
         margin-left: 8px;
         border-radius: 5px;
         }
         .img img{
-            width: 200px;
-            height: 140px;
+            width: 190px;
+            height: 130px;
         }
-    .blog_img img{
+        #blog{
+            display: none;
+        }
+    /*.blog_img img{
         width: 140px;
         height: 200px ;
     }
@@ -681,7 +686,7 @@ margin-top: 10px;
         margin-top: 10px;
         width: 400px;
         height: 200px;
-    }
+    }*/
     #Contact{
         background-image: none;
         background-color: black
@@ -721,7 +726,10 @@ margin-top: 10px;
         background: none;
         color: black;
     }
-    .blog_img img{
+    #blog{
+        display: none;
+    }
+    /*.blog_img img{
         width: 80px;
         height: 150px ;
     }
@@ -735,7 +743,7 @@ margin-top: 10px;
        height: 150px;
        height: 140;
        margin-top: 8px;
-    }
+    }*/
     .footer{
         font-size: xx-small;
     }
