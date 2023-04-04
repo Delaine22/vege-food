@@ -534,6 +534,9 @@ margin-top: 10px;
     .card1, .card2, .card3{
         margin-top: 40px;
     }
+    #chef{
+        margin-top: 50px;
+    }
     .feedback{
         width: 100%;
         display: flex;
@@ -604,7 +607,8 @@ margin-top: 10px;
         font-size: 30px
     }
     .about_us{
-        margin-top: 0px;
+        margin-top: 5px;
+        background: none;
     }
     .morning_meal img,.lunch img,.dinner img,.dessert img{
         width: 100px;
@@ -613,7 +617,11 @@ margin-top: 10px;
     }
     #menu{
         background: none;
-        height: 155vh;
+        /*height: 155vh;*/
+        height: 70vh;
+    }
+    #chef{
+        margin-top: 150px;
     }
     #season-offer{
         display: flex;
@@ -643,15 +651,24 @@ margin-top: 10px;
     }
     .cards{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
     }
     .card1, .card2, .card3{
-        margin-top: 5px;
-        margin-left: 25px;
-    }
-    #chef{
-        margin-top: 30px;
-    }
+        font-size: medium;
+        background-color: white;
+        width: 200px;
+        height: 250px;
+        border: 1px solid gray;
+        margin-top: 10px;
+        margin-left: 8px;
+        border-radius: 5px;
+        }
+        .img img{
+            width: 200px;
+            height: 140px;
+        }
     .blog_img img{
         width: 140px;
         height: 200px ;
@@ -664,6 +681,10 @@ margin-top: 10px;
         margin-top: 10px;
         width: 400px;
         height: 200px;
+    }
+    #Contact{
+        background-image: none;
+        background-color: black
     }
     .footer{
         font-size: x-small;
@@ -679,6 +700,7 @@ margin-top: 10px;
     .about_us{
         height: 350px;
         text-align: center;
+        background: none;
     }
     .meal{
         font-size: small;
@@ -692,10 +714,12 @@ margin-top: 10px;
         display: none;
     }
     #chef{
-    margin-top:0px;
+        margin-top: 100px;
     }
     #contact{
         font-size: small;
+        background: none;
+        color: black;
     }
     .blog_img img{
         width: 80px;
